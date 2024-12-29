@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 55%;
+}
+.navbar{
+    display:flex; 
+}
+.nav-list{
+  display:flex;
+  width:50%;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(to right, #155799, #159957);  
+  background: linear-gradient(to right, #155799, #159957); 
+  list-style: none;
+  
+  
+}
+.header{
+  width:40%;
+  display:flex;
+  background: -webkit-linear-gradient(to right, #155799, #159957);  
+  background: linear-gradient(to right, #155799, #159957); 
+  justify-content: center;
+   text-align: center; }
+.nav-list li a{
+    
+    background-color: #F8B195, #F67280, #C06C84, #6C5B7B, #355C7D;  ;
+    padding:1.0rem;
+   text-decoration: none;
+   color:white;
+}
+.project{
+    color:aqua;
+    font-size:5.0rem;
+}
+.rightnav{
+    background: -webkit-linear-gradient(to right, #155799, #159957);  
+    background: linear-gradient(to right, #155799, #159957); 
+    width:20%;
+    padding-top: 1.5%;
+
+}
+.logo img{
+    width: 25%;
+    border: .2rem solid white;
+    border-radius: 50%;
+}
+#search{
+    
+    border: .2rem solid aqua;
+    font-size:1.5rem;
+
+}
+nav{
+    position: sticky;
+  top: 0;
+  z-index: 999;
+ }
+ .background{
+    display:flex;
+    background: -webkit-linear-gradient(to right, #155799, #159957);  
+    background: linear-gradient(to right, #155799, #159957); 
+    background-size: cover;
+    
+ }
+
+.pcontent{
+    width:66%;
+    color:white;
+    padding-left: 3%;
+
+}
+.Confuse{
+    font-size:8.0rem;
+    margin-top: 5%;
+    color:cyan;
+}
+.welcome{
+    font-size:4.0rem;
+    margin-top:3%;
+    padding-left: 4%;
+    color:cyan;
+}
+.subhead{
+    font-size:4.0rem;
+    margin-top:3%;
+    padding-left: 4%;
+    color:cyan;
+}
+
+.services{
+    padding-top: 2%;
+    text-align:center;
+    background: -webkit-linear-gradient(to right, #155799, #159957);  
+    background: linear-gradient(to right, #155799, #159957);   
+}
+.servicehead{
+    padding-top:4%;
+    font-size:4.0rem;
+    color:yellow;
+}
+.seimgtext img{
+    border-image-outset: 0ch;
+    border: .2rem dotted white;
+    border-radius: 10%;
+    padding-left: 0%;
+}
+.seimg{
+    display:flex;
+    color:white;
+    font-size:2.0rem;
+    list-style: none;
+    text-align: center;
+    width:50%;
+    
+     
+}
+.psych{
+    margin-left:24%;
+}
+.skill{
+    margin-left:28%;
+}
+.meeting{
+    margin-left:30%;
+}
+.brochure{
+    margin-left:30%;
+}
+
+.aboutus{
+    padding-top: 1.5%;
+    border: .2rem solid pink;
+    border-radius: 0%;
+    background-color:cornflowerblue;
+    font-size:2.5rem;
+    text-align:center;
+    
+
+    
+
+}
+.why{
+    padding-top: 1%;
+    border: .2rem solid coral;
+    border-radius: 0%;
+    background-color: blueviolet;
+    height:22.0rem;
+    font-size:2.5rem;
+    text-align:center;
+}
+.abouthead{
+    text-align:center;
+    color:gold;
+    font-size:4.0rem;
+    font-family: Verdana;
+}
+.whyhead{
+    text-align:center;
+    color:gold;
+    font-size:4.0rem;
+    font-family: Geneva;
+}
+
+.procedure{
+    
+    font-size:3.0rem;
+    border: .2rem solid coral;
+    border-radius:0%;
+    text-align:center;
+    background-color:darkorchid;
+    list-style-type: circle;
+   
+}
+.prohead{
+    font-size: 3.5rem;
+    color:gold;
+}
+.step{
+    list-style-type: circle;
+}
+
+.contact{
+    text-align:center;
+    font-size:2.0rem;
+    width:30%;
+    border: .2rem solid coral;
+    border-radius:0.5%;
+    height:4 rem;
+    background-color: darkcyan;
+}
+.formhead{
+    font-size: 3.5rem;
+    color: black;
+}
+.formcontent{
+    margin-top:2%:
+    margin:2%;
+    text-align:center;
+    border: .2rem solid black;
+
+}
+.footer{
+    text-align:center;
+    font-size:3.0rem;
+    background: -webkit-linear-gradient(to right, #155799, #159957);  
+    background: linear-gradient(to right, #155799, #159957); 
+    color: yellow;
+}
+.contacthead{
+    font-size:4.0rem;
+    color:white
+}
+.submit{
+    color:crimson;
+    font-size:2.5rem;
+}
+@media(max-width:998px) {
+    html{
+        font-size: 100%;
+    }
+}
+
+ 
+
+@media(max-width:760px) {
+    html{
+        font-size: 100%;
+    }
+}
+
+.page-wrapper{
+    header{
+        padding: 2 rem;
+    }
+    
+    section.hero{
+        padding: 2 rem;
+    
+    }
+}
+@media(max-width:600px) {
+    html{
+        font-size: 100%;
+    }
+}
+    
+@media(max-width:400px) {
+    html{
+        font-size: 100%;
+    }
+}
